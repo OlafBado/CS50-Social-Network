@@ -1,0 +1,30 @@
+{% extends "network/layout.html" %}
+{% load static %}
+
+{% block body %}
+
+
+    <h2 id="h2">All posts</h2>
+    <div id="post-form">
+        <form method="post">
+            <h4>New post</h4>
+            <textarea class="form-control" id="form-content" placeholder="What do you have to say?..."></textarea>
+            <input type="submit" class="btn btn-primary" id="form-submit" value="Post"/>
+        </form>
+    </div>
+    <div id="profile-div">
+        <h3 id="user">User</h3>
+        <button id="follow-button" class="btn btn-sm btn-info mt-3 mb-3">Follow</button>
+        <p id="user_followers">Followers the user has:</p>
+        <p id="user_following">User follows:</p>
+    </div>
+    <div id="posts">
+    </div>
+    <div id="pagination"></div>
+    
+
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'network/index.js' %}"></script>
+{% endblock %}

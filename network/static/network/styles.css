@@ -1,0 +1,87 @@
+#form-submit {
+    margin-top: 10px;
+}
+
+#form-content {
+    height: 100px;
+}
+
+#post-form {
+    padding: 30px;
+    border: 1px solid rgb(192, 191, 191);
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.post-div {
+    height: 175px;
+    border: 1px solid rgb(192, 191, 191);
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: aliceblue;
+}
+
+svg {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    margin-top: -85px;
+}
+
+svg:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.profile:hover {
+    cursor: pointer;
+}
+
+.edit-button {
+    margin-left: -40px;
+}
+
+.edit-button:hover {
+    cursor: pointer;
+    background-color: rgb(221, 218, 218);
+}
+
+.content {
+    margin-bottom: -10px;
+}
+
+.page {
+    margin: 3px;
+    margin-top: 5px;
+}
+
+.page:hover {
+    background-color: rgb(61, 200, 255);
+}
+
+a {
+    cursor: pointer;
+}
+
+#loged-in:hover {
+    cursor: default;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+h2 {
+    margin: 15px;
+}
+
+.save {
+    margin-bottom: 38px;
+    margin-left: 5px;
+}
+
+#profile-div {
+    margin-left: 10px;
+}
